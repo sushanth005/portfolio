@@ -134,7 +134,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-amber to-[#fdb94d] opacity-0 group-hover:opacity-100 transition-opacity" />
             </a>
             <a href="#contact" className="px-7 py-3.5 rounded-xl border border-white/15 text-white font-semibold text-sm hover:border-amber/50 hover:bg-amber/8 transition-all active:scale-95">Get In Touch</a>
-            <a href="/resume" className="px-7 py-3.5 rounded-xl border border-amber/20 text-amber font-semibold text-sm hover:border-amber/50 hover:bg-amber/8 transition-all active:scale-95">Resume ↗</a>
+            <a href="https://drive.google.com/file/d/1EXv9C2qDFtDzV5_T5vDFNIpQW339ngY6/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="px-7 py-3.5 rounded-xl border border-amber/20 text-amber font-semibold text-sm hover:border-amber/50 hover:bg-amber/8 transition-all active:scale-95">Resume ↗</a>
           </motion.div>
 
           <motion.div className="flex items-center gap-1 mt-8" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.95, duration: 0.5 }}>

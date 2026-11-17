@@ -84,7 +84,9 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="/resume"
+          href="https://drive.google.com/file/d/1EXv9C2qDFtDzV5_T5vDFNIpQW339ngY6/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex px-4 py-2 rounded-lg bg-amber text-black text-sm font-semibold hover:shadow-[0_0_20px_rgba(252,163,17,0.4)] hover:bg-amber/90 transition-all"
         >
           Resume
@@ -129,7 +131,7 @@ export default function Navbar() {
                 </motion.li>
               ))}
               <motion.li initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: navLinks.length * 0.05, duration: 0.3 }}>
-                <a href="/resume" onClick={closeMobile} className="mt-4 px-6 py-3 rounded-lg bg-amber text-black text-lg font-semibold hover:bg-amber/90 block transition-colors">
+                <a href="https://drive.google.com/file/d/1EXv9C2qDFtDzV5_T5vDFNIpQW339ngY6/view?usp=drive_link" target="_blank" rel="noopener noreferrer" onClick={closeMobile} className="mt-4 px-6 py-3 rounded-lg bg-amber text-black text-lg font-semibold hover:bg-amber/90 block transition-colors">
                   Resume
                 </a>
               </motion.li>
