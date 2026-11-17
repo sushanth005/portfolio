@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #000000;
+  --color-navy: #14213D;
+  --color-amber: #FCA311;
+  --color-silver: #E5E5E5;
+  --color-white: #FFFFFF;
+  --color-muted: #6B7280;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* ─── Base ─────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px; /* navbar height */
+  background-color: #000000; /* prevents white flash before hydration */
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-black);
+  color: var(--color-silver);
+  cursor: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent layout shift / white line near nav */
+  overscroll-behavior: none;
+}
+
+/* Re-enable default cursor on touch devices */
+@media (pointer: coarse) {
+  body { cursor: auto; }
+  a, button { cursor: pointer; }
+}
+
+/* Keep cursor:none on interactive elements for custom cursor detection */
+a, button, [role="button"], input, textarea, select, label {
+  cursor: none;
+}
+
+/* ─── Skip Link ─────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--color-amber);
+  color: var(--color-black);
+  font-weight: 600;
+  cursor: none;
+}
+.skip-link:focus { left: 0; }
+
+/* ─── Global smooth transitions ─────────────────── */
+*,
+*::before,
+*::after {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth color / opacity transitions on interactive elements */
+a,
+button,
+[role="button"] {
+  transition: color 0.2s, background-color 0.22s, border-color 0.22s,
+    box-shadow 0.22s, opacity 0.2s, transform 0.2s;
+  will-change: transform;
+}
+
+/* ─── Section typography ─────────────────────────── */
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .section-title { font-size: 3rem; }
+}
+
+.section-subtitle {
+  color: var(--color-muted);
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+/* ─── Cards ─────────────────────────────────────── */
+.card {
+  background-color: var(--color-navy);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 1rem;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.35s ease,
+    border-color 0.3s ease;
+  will-change: transform;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(252, 163, 17, 0.18);
+  border-color: rgba(252, 163, 17, 0.18);
+}
+
+/* ─── Typewriter cursor blink ────────────────────── */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* ─── Scrollbar ──────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--color-navy); }
+::-webkit-scrollbar-thumb {
+  background: rgba(252, 163, 17, 0.3);
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(252, 163, 17, 0.6); }
+
+/* ─── Focus ring ─────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Selection ──────────────────────────────────── */
+::selection {
+  background: rgba(252, 163, 17, 0.3);
+  color: var(--color-white);
+}
+
+/* ─── Page transition wrapper ────────────────────── */
+.page-transition {
+  animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Smooth image loading ───────────────────────── */
+img {
+  transition: opacity 0.4s ease;
+}
+
+/* ─── Reduced motion ─────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .card:hover { transform: none; }
+}

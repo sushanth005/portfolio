@@ -1,0 +1,291 @@
+Home, About, Skills, Works, Achievements, Experience, Contact
+
+
+
+Sushanth Bandari(profile.jpg)
+
+{
+Problem Solving
+Full-Stack Development
+UI/UX Designing
+Artificial Intelligence
+Machine Learning
+Programming}
+
+open to internships
+
+Contact(use logos)
+mail: sushanth1208@@gmail.com
+LinkedIn: https://www.linkedin.com/in/sushanth-bandari-510bb3378/
+GitHub: https://github.com/sushanth005
+Twitter: https://x.com/SushanthBandari
+Instagram: https://www.instagram.com/yo_sushanth
+mobile: +91 8919741818
+
+Hyderabad, India
+
+languages spoken English, Telugu, Hindi
+
+10+ real world problem solving projects
+8+ finalists in Hackathons
+2x Hackathon wins
+etc..
+
+Skills(use logos wherever required):
+MERN Stack AI & Machine Learning
+Python, Java, C, JavaScript, SQL, C++
+Tailwind CSS, React.js, Node.js, Express.js, FastAPI, HTML, CSS
+FastAPI, REST APIs
+MongoDB, PostgreSQL
+OpenAI API, Gemini API, Groq API, Hugging Face API, LLM Integration, Vector Embeddings
+Machine Learning, Data Analysis, Prompt Engineering, Data Visualization, Excel
+
+
+Tools/Platforms:
+Docker, Microsoft Azure, Google Cloud Platform, Git, GitHub, Android Studio
+ChatGPT, Claude, Google Gemini, GitHub Copilot, Cursor AI, Google AI Studio, Perplexity AI, Groq, v0, Antigravity, Figma AI
+
+
+
+Works/Projects:
+
+1.DhvaniSense(For: HCL Guvi)
+link: https://github.com/sushanth005/dhvanisense
+Description:
+# 🎧 DhvaniSense – AI Voice Detection System
+
+**DhvaniSense** is an AI-powered audio classification system that distinguishes between **AI-generated and human-generated voices**. Built using Python, FastAPI, and deep learning, it analyzes audio samples and delivers classification results with confidence scores.
+
+### Key Features
+- AI-generated vs. human voice detection.
+- MP3 and WAV audio processing using Librosa and FFmpeg.
+- Automated dataset validation, model training, and evaluation.
+- Secure FastAPI REST APIs with API key authentication.
+- Base64-encoded audio input support.
+- Model validation and performance report generation.
+- Docker containerization and cloud deployment.
+
+### Cloud Deployment
+Initially deployed on **Google Cloud Platform (GCP)** and subsequently migrated to **Microsoft Azure** after exhausting the available GCP credits, maintaining continued cloud availability.
+
+### Technology Stack
+**Python · FastAPI · PyTorch · Librosa · NumPy · Pandas · Scikit-learn · FFmpeg · Docker · Uvicorn · GCP · Microsoft Azure**
+
+### Use Cases
+Deepfake voice detection, audio authenticity verification, voice fraud prevention, and AI-generated speech identification.
+
+
+
+2.☕ Coffee-with-Cinema (For Nasscomm)
+link: https://github.com/sushanth005/Coffee-With-Cinema
+Description:
+Coffee-with-Cinema is an AI-powered filmmaking platform that transforms creative story ideas into complete film production packages. It generates professionally formatted screenplays, character profiles, shot lists, sound design recommendations, AI-generated storyboard images, and production budget estimates.
+
+Key Features
+AI Script Generation: Creates structured screenplays using LLMs.
+Character Development: Generates character profiles, motivations, and story arcs.
+AI Storyboarding: Produces cinematic storyboard images using Stable Diffusion.
+Shot List Generation: Suggests camera angles, compositions, and shot sizes.
+Sound Design: Recommends background music, sound effects, and ambience.
+Budget Estimation: Generates AI-powered production budget breakdowns.
+Project Management: Organizes storyboard generations into separate project folders with persistent storage.
+Document Export: Supports PDF, DOCX, and TXT exports.
+Modern UI: Features a responsive, cinematic dark-themed interface.
+
+Technology Stack
+Python · Flask · Groq API · Llama 3.3 70B · Hugging Face · Stable Diffusion XL · HTML5 · CSS3 · JavaScript · ReportLab · python-docx · LocalStorage
+
+AI Integration
+Integrated Groq LLMs for screenplay and production content generation and Hugging Face Stable Diffusion XL for cinematic storyboard image generation.
+
+Use Cases
+Film pre-production, screenplay development, creative storytelling, visual planning, and independent filmmaking.
+
+
+
+3.Servicedesk-pro(For WiseAcad by SuntekCorp)
+Deployed Link: https://servicedesk-pro-three.vercel.app/
+Description:
+# 🎫 ServiceDesk Pro – AI-Powered IT Service Management Platform
+
+**ServiceDesk Pro** is a full-stack IT service management platform built using the MERN stack and Groq AI. It streamlines IT support through intelligent ticket classification, automated SLA management, asset lifecycle tracking, and role-based access control.
+
+### Key Features
+- **AI-Powered Ticket Triage:** Automatically classifies tickets, assigns priorities, and suggests solutions using Groq LLM.
+- **SLA Management:** Tracks response and resolution deadlines with business-hours awareness and automatic escalation.
+- **Asset Lifecycle Management:** Manages hardware, software, warranties, and licenses.
+- **Role-Based Access Control:** Supports five roles with department-level permissions.
+- **Knowledge Base:** Provides searchable support articles and AI-powered recommendations.
+- **Analytics & Dashboards:** Visualizes ticket trends, technician workloads, and SLA compliance.
+- **Security & Auditing:** Implements JWT authentication, password hashing, request validation, and audit logs.
+- **Reports & Exports:** Supports CSV and PDF exports for tickets, assets, and audit records.
+
+### Technology Stack
+**MongoDB · Express.js · React.js · Node.js · Groq API · LLaMA 3.3 70B · JWT · Mongoose · Zod · Recharts · Docker**
+
+### AI Integration
+Integrated Groq LLM for automated ticket triage, priority classification, knowledge-base recommendations, and solution suggestions, with a fallback classification engine.
+
+### Use Cases
+Enterprise IT support, helpdesk automation, incident management, IT asset tracking, and service-level monitoring.
+
+
+
+4.# 📡 iTantra – Multilingual Offline AI Transceiver(For ISRO(SIH 2026))
+link: https://github.com/sushanth005/itantra
+Description:
+**iTantra** is an AI-powered Android application developed for **Smart India Hackathon 2026 (SIH26173)**, addressing an ISRO problem statement. It transforms two smartphones into an offline multilingual communication system using on-device Speech-to-Text (STT) and Text-to-Speech (TTS), enabling reliable emergency communication over low-bandwidth wireless connections.
+
+### Key Features
+- **Offline Communication:** Enables voice messaging without internet or cloud services.
+- **Multilingual Support:** Supports 10 Indian languages and English.
+- **AI Speech Processing:** Converts speech into text and reconstructs it as audio on the receiver.
+- **Push-to-Talk:** Walkie-talkie-style communication.
+- **Emergency Alert Mode:** Prioritizes critical messages with audio alerts.
+- **Low-Bitrate Transmission:** Sends compact text-based packets instead of raw audio.
+- **On-Device AI:** Uses quantized ONNX models for efficient mobile inference.
+- **Wireless Connectivity:** Supports Bluetooth Classic and Wi-Fi Direct.
+
+### Technology Stack
+**Kotlin · Android Studio · Jetpack Compose · ONNX Runtime · AI4Bharat IndicConformer · Indic-VITS · Silero VAD · Protocol Buffers · Python · Gradle**
+
+### AI Integration
+Integrated AI4Bharat speech models for multilingual STT and TTS, Silero Voice Activity Detection, and INT8 model quantization for efficient on-device processing.
+
+### Use Cases
+Emergency communication, disaster response, remote-area connectivity, multilingual communication, and low-bandwidth distress messaging.
+
+**Hackathon:** Smart India Hackathon 2026  
+**Problem Statement:** SIH26173 – Indian Space Research Organisation (ISRO)
+
+
+5.## Intelli-Credit — AI-Powered Corporate Credit Appraisal Engine
+link:https://github.com/sushanth005/Intelli-Credit-AI-Powered-Corporate-Credit-Appraisal-Engine
+Description:	
+Intelli-Credit is an AI-driven corporate credit risk assessment system designed to automate and enhance business loan evaluation. Built on a **FastAPI-based backend and React frontend**, it integrates multi-format financial document parsing, structured financial data extraction, GST–bank transaction reconciliation, and web-based due diligence. A weighted **Five-Cs credit scoring engine** combines quantitative financial indicators with qualitative risk intelligence to generate explainable lending decisions, risk-based loan recommendations, and automated Credit Appraisal Memos (CAM).
+
+**Key Features**
+- **Intelligent Document Processing:** Parses financial statements, annual reports, and legal documents using PDF extraction pipelines to identify key financial indicators such as EBITDA, PAT, DSCR, ICR, and debt-to-equity ratio.
+- **Financial Anomaly Detection:** Performs GST and bank statement reconciliation to identify discrepancies, potential circular trading patterns, and financial irregularities.
+- **AI-Powered Due Diligence:** Uses external web search and LLM-based synthesis to analyze company profiles, promoter backgrounds, litigation records, and regulatory developments.
+- **Weighted Five-Cs Risk Engine:** Implements a configurable scoring model across Character, Capacity, Capital, Collateral, and Conditions to evaluate corporate creditworthiness.
+- **Automated Credit Decisioning:** Generates risk-based approval recommendations, suggested loan amounts, interest rates, and risk premiums.
+- **Credit Appraisal Report Generation:** Dynamically generates downloadable PDF Credit Appraisal Memos containing financial analysis, risk assessments, and lending recommendations.
+
+**AI Integration:** Google Gemini 1.5 Flash for financial data interpretation, research synthesis, and credit decision support; Serper.dev for real-time external information retrieval.
+
+**Tech Stack:** Python, FastAPI, React.js, Vite, Google Gemini API, Serper.dev, pdfplumber, PyPDF2, ReportLab, Recharts, Axios.
+
+**Use Cases:** Corporate credit risk modeling, automated loan underwriting, financial statement analysis, regulatory due diligence, and lending decision support.
+
+
+6.Pravaha-Traffic Management System for Hyderabad(For Department of police, disaster management of Telangana government) 
+link: https://github.com/sushanth005/Pravaha
+Description:
+## Pravaha — Real-Time Traffic Management System for Hyderabad
+
+Pravaha is an intelligent traffic management platform that uses **road-network graph modeling, geospatial analysis, and optimized routing algorithms** to generate real-time traffic plans for Hyderabad. Built on OpenStreetMap data, it automates road closures, diversion planning, barricade placement, and police resource allocation while detecting conflicts between overlapping events. It supports both web-based administration and Android/iOS volunteer reporting with offline capabilities.
+
+**Key Features**
+- Geospatial traffic planning using OSM road networks and spatial indexing.
+- Dijkstra-based route optimization with alternative diversion recommendations.
+- Automated barricade placement and police deployment.
+- Multi-event conflict detection and real-time WebSocket alerts.
+- AI-powered multilingual event reporting and voice input.
+- Cross-platform volunteer app with GPS reporting and offline synchronization.
+
+**Tech Stack:** Python, FastAPI, React, TypeScript, Expo, React Native, MapLibre GL, OpenStreetMap, NetworkX, SciPy, Shapely, GeoPandas, SQLite, PostgreSQL, PostGIS, Groq API, WebSockets.
+**Use Cases:** Urban traffic management, emergency incident response, public event and procession planning, VIP convoy coordination, road closure and diversion management, police resource allocation, and real-time traffic coordination.
+
+7.Tark AI – AI-Powered ATS Resume Optimization & Career Assistant Platform
+GitHub: https://github.com/sushanth005/Tark-AI
+Deployed Link: https://tark-ai-three.vercel.app/
+Description:
+Developed an AI-powered career assistance platform that analyzes resumes against target job descriptions using Groq's Llama 3.1 model to generate detailed ATS compatibility scores, identify missing skills, and provide actionable resume improvement suggestions. Features automated PDF resume parsing, keyword analysis, personalized cover letter generation, and interactive AI-powered mock interviews tailored to individual candidate profiles. Includes secure JWT-based authentication, assessment history, interactive analytics dashboards, and downloadable PDF reports and DOCX cover letters.
+
+Key Features:
+- AI-powered ATS scoring and resume analysis.
+- Automated PDF resume parsing and candidate data extraction.
+- Job-specific skill gap identification and keyword matching.
+- AI-generated personalized cover letters (DOCX).
+- Interactive AI mock interviews with contextual feedback.
+- Secure authentication and assessment history.
+- Interactive analytics dashboard with PDF report exports.
+- Responsive UI with advanced Light/Dark mode support.
+Tech Stack: React 19, Vite, Tailwind CSS, Node.js, Express.js, MongoDB, Mongoose, Groq API, Llama 3.1 8B Instant, JWT, Multer, pdf-ts, Recharts, Axios.
+
+
+
+Achievements:
+
+Finalist – India AI Impact Buildathon 2026 Feb 2026
+(hcl1.jpg, hcl2.jpg slideshow)
+Organization: HCL Guvi
+AI Impact Summit
+(hcl.jpg, )
+Selected among 40,000+ developers nationwide as a finalist for **DhvaniSense(link to the works section)**, an AI-powered voice authenticity
+detection system.
+Description: **HCL GUVI India AI Impact Buildathon 2026 — Top 2% Achievement**
+
+Recognized among the **Top 2% of 40,000+ AI builders** at the HCL GUVI Buildathon, held during the India AI Impact Summit 2026 at Bharat Mandapam, New Delhi. Presented **DhvaniSense**, an AI-powered voice deepfake detection system built using fine-tuned Wav2Vec2 and PyTorch, achieving approximately 99% classification accuracy in distinguishing human and AI-generated voices. Competed among 15,000+ teams at a national-level innovation event.
+certificate: https://drive.google.com/file/d/1Vf2Toyo40NkimqAvLNTz-UQRA6UyCGvT/view?usp=drive_link
+LinkedIn: https://www.linkedin.com/posts/sushanth-bandari-510bb3378_indiaaiimpactsummit2026-hackathon-buildathon-activity-7442945867575382016-HfuV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF1wFhwBe7SXoxxw-g6CRCR1ylk9b3bGljk
+
+
+
+2nd Runner Up – GENAI FORGE Hackathon Feb 2026
+(nasscom.jpg)
+Organization: NASSCOM
+NASSCOM AI-Assisted Developer Marathon
+Won as 2nd Runner Up in GenAI Forge Hackathon for **Coffee With Cinema(link to thte works section)**, 
+certificate: https://drive.google.com/file/d/1OnanG50fOl8VIUmB_BDm31--YWPbIq6O/view
+Description:
+Secured **3rd Place** at the **GENAI Forge Hackathon – NASSCOM AI-Assisted Developer Marathon**, an industry initiative supported by Google.
+
+Presented **Coffee-with-Cinema**, a Generative AI-powered storyboard and screenplay platform that transforms story ideas into complete filmmaking blueprints. The platform generates story synopses, character profiles, formatted screenplays, AI-generated storyboard visuals, shot lists, sound design, and budget distributions, with export options including PDF and DOCX.
+
+Recognized for applying Generative AI to streamline creative ideation and film pre-production workflows.
+Linkedin: https://lnkd.in/p/d4v68dfm
+
+
+Guinness World Records™ – Agentathon 2025 World’s Largest Agentic AI Hackathon
+(agentathon1.jpg, agentathon2.jpg, agentathon3.jpg)
+Organization: Google Developer Groups Hyderabad
+certificate: https://drive.google.com/file/d/1izPcsemrilZSK4_AjIdeK4NyGE-l4Ym1/view?usp=sharing
+Description:
+Participated in a **36-hour Agentathon Hackathon** organized by **GDG Hyderabad** at Malla Reddy University, as part of the event recognized by Guinness World Records as the **World’s Largest Agentic AI Hackathon**.
+
+Collaborated with a team to build an **AI-powered Content Creation & Social Media Posting Agent** that generates engaging content and automates social media publishing workflows using Google AI tools and agentic workflows.
+
+Gained hands-on experience in building AI agents, workflow automation, collaborative development, and applying Generative AI to real-world content creation challenges.
+LinkedIn: https://lnkd.in/p/dZd4CMKr
+
+
+Contributed in AI Impact Summit 2026
+Organization: AI Impact Summit 2026
+Description:
+Participated in the prestigious **India AI Impact Summit 2026** held at Bharat Mandapam, New Delhi, gaining exposure to cutting-edge AI innovations, connecting with developers, industry experts, and global technology leaders, and contributing to discussions around the future of artificial intelligence. Represented emerging AI innovation through the development and presentation of real-world AI solutions, contributing to India's growing AI ecosystem.
+
+
+
+
+Experience:
+
+### Full Stack Developer Intern | WiseAcad by SuntekCorp
+**April 2026 – June 2026 | On-site, Hyderabad**
+Description:
+Worked as a Full Stack Developer Intern, building responsive web applications using the MERN stack. Gained hands-on experience in frontend and backend development, REST API integration, database management, collaborative project development, and application deployment while following industry-standard software development practices.
+
+**Technologies / Skills Used:** MongoDB, Express.js, React.js, Node.js, JavaScript, REST APIs, Git, GitHub, Full-Stack Development.
+
+
+
+
+
+
+
+
+
+
+
+
