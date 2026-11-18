@@ -1,7 +1,7 @@
 // app/resume/ResumeContent.tsx
 "use client";
 
-import { identity, socials, skillGroups, projects, achievements, experience } from "@/content/portfolio";
+import { identity, socials, skillGroups, projects, achievements, experience, education } from "@/content/portfolio";
 
 export default function ResumeContent() {
   const handlePrint = () => {
@@ -51,6 +51,23 @@ export default function ResumeContent() {
               ))}
           </div>
         </header>
+
+        {/* Education */}
+        <section className="mb-6">
+          <h2 className="text-lg font-bold uppercase tracking-wide text-gray-700 border-b border-gray-200 pb-1 mb-3">
+            Education
+          </h2>
+          {education.map((edu) => (
+            <div key={edu.institution} className="mb-4">
+              <div className="flex justify-between items-baseline">
+                <h3 className="font-semibold">{edu.degree} — {edu.field}</h3>
+                <span className="text-sm text-gray-500">{edu.period}</span>
+              </div>
+              <p className="text-sm text-[#FCA311] font-medium">{edu.institution} · {edu.location}</p>
+              <p className="text-sm text-gray-600 mt-0.5">{edu.gradeLabel}: <strong>{edu.grade}</strong></p>
+            </div>
+          ))}
+        </section>
 
         {/* Experience */}
         <section className="mb-6">

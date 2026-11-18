@@ -29,6 +29,16 @@ export interface Achievement {
   relatedProject?: string; // slug
 }
 
+export interface Education {
+  degree: string;
+  field: string;
+  institution: string;
+  location: string;
+  period: string;
+  grade: string;
+  gradeLabel: string; // "CGPA" | "Percentage"
+}
+
 export interface Experience {
   role: string;
   company: string;
@@ -379,6 +389,27 @@ export const achievements: Achievement[] = [
     description:
       "Represented emerging AI innovation at the India AI Impact Summit 2026 at Bharat Mandapam, New Delhi — engaging with industry leaders, researchers, and global technology practitioners shaping the future of artificial intelligence.",
     images: ["/assets/summit.jpg"],
+  },
+];
+
+export const education: Education[] = [
+  {
+    degree: "Bachelor of Technology",
+    field: "Computer Science Engineering",
+    institution: "Anurag University",
+    location: "Hyderabad, India",
+    period: "2024 – 2028",
+    grade: "8.45",
+    gradeLabel: "CGPA",
+  },
+  {
+    degree: "Intermediate (MPC)",
+    field: "Mathematics, Physics & Chemistry",
+    institution: "Narayana IIT Academy",
+    location: "Hyderabad, India",
+    period: "2022 – 2024",
+    grade: "95.6%",
+    gradeLabel: "Percentage",
   },
 ];
 
